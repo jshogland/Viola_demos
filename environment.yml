@@ -10,5 +10,4 @@ dependencies:
   - ipywidgets
   - ipyleaflet
   - voila
-  - pip:
-      - raster-tools
+  - raster-tools
