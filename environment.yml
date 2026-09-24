@@ -1,13 +1,26 @@
 dependencies:
-  - python=3.12
+  - python=3.12.11
   - pip
+  - affine
+  - cfgrib
+  - dask
+  - dask-geopandas
+  - dask-image
   - fiona
   - geopandas
   - netcdf4
+  - numba
+  - numpy
   - pandas
   - pyogrio
+  - rasterio
+  - rioxarray
   - scipy
+  - shapely
+  - xarray
   - ipywidgets
   - ipyleaflet
   - voila
-  - raster-tools=0.11
+  - jupyter-server-proxy
+  - pip:
+      - raster-tools=0.11
