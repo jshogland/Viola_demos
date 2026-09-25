@@ -21,6 +21,4 @@ dependencies:
   - ipywidgets
   - ipyleaflet
   - voila
-  - jupyter-server-proxy
-  - pip:
-      - raster-tools==0.11
+  - raster-tools
